@@ -1,10 +1,11 @@
 var agora = new Date()
 var diaSem = agora.getDay()
+var hora = data.getHours() //atualizado 07/06/2022 - 12:09
 
 /*Dommingo; Segunda; Terça; Quarta; Quinta; Sexta e Sábado*/
 
 //console.log(diaSem)
-
+console.log(`Agora são ${hora} hora(s)`)
 switch (diaSem) {
     case 0:
         console.log(`DOMINGO`)
